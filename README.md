@@ -1,6 +1,4 @@
-            Universidad Nacional de Costa Rica
-
-II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
+Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
   ------------------------------------------------------
     Este proyecto consiste en un Web Server sencillo 
     que recibe solicitudes por parte de un cliente
