@@ -8,7 +8,7 @@ ______________________________________________________________________________
 
 1. Descargar la imagen de docker --> https://hub.docker.com/r/jrojas89/projectso-una
 2. Correr la imagen en el contenedor:
--
+--
     docker run --rm -p 80:5000 projectso-una:projectso-una
 
 3. Abrir XAMPP iniciar los modulos Apache y MySQL
@@ -16,7 +16,7 @@ ______________________________________________________________________________
 5. Crear una nueva base de datos llamada "bdtranslatorapi"
 6. Ejecutar el script WebServer.py y detenerlo [Ctrl + C]
 7. Volver a phpMyAdmin, abrir la base de datos y presionar el boton superior [SQL] y pegar los siguientes comandos:
--
+---
     INSERT INTO en (pEs, pEn) VALUES ('Hola', 'Hello'), ('Adios', 'GoodBye'), ('Perro', 'Dog'), ('Gato', 'Cat');
     INSERT INTO ita (pEs, pIta) VALUES ('Hola', 'Ciao'), ('Adios', 'Arrivederci'), ('Perro', 'Cane'), ('Gato', 'Gatto');
     INSERT INTO fr (pEs, pFr) VALUES ('Hola', 'Salut'), ('Adios', 'Adieu'), ('Perro', 'Chien'), ('Gato', 'Chat');
