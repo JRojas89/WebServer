@@ -1,4 +1,4 @@
---*--
+  ------------------------------------------------------
             Universidad Nacional de Costa Rica
 II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
   ------------------------------------------------------
@@ -11,7 +11,7 @@ II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
     Para este proyecto se utilizo Python 3 y Flask para 
     la parte programada, XAMPP para la base de datos de 
     MySQL y Docker para crear la imagen
---*--
+  ------------------------------------------------------
 
 **- - ->> PARA CORRER LA APLICACION DEBE SEGUIR LOS SIGUIENTES PASOS <<- - -**
 
@@ -32,22 +32,27 @@ II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
 11. Aparecera un archivo llamado Archivo_log.txt con los datos de los clientes que enviaron las solicitudes HTTP
 
 **- - ->> EJEMPLOS DE USO <<- - -**
-A. Se envia una solicitud http://127.0.0.1:5000/en/Hola
-   Se recibe de respuesta:
+
+1. Se envia una solicitud http://127.0.0.1:5000/en/Hola
+
+Se recibe de respuesta:
         {
             "pEn": "Hello", 
             "pEs": "Hola"
         }
 
-B. Se envia una solicitud http://127.0.0.1:5000/ita/Gato
-   Se recibe de respuesta:
+
+2. Se envia una solicitud http://127.0.0.1:5000/ita/Gato
+  
+Se recibe de respuesta:
         {
             "pEs": "Gato", 
             "pIta": "Gatto"
         }
 
-C. Se envia una solicitud http://127.0.0.1:5000/fr/Adios
-   Se recibe de respuesta:
+3. Se envia una solicitud http://127.0.0.1:5000/fr/Adios
+   
+Se recibe de respuesta:
         {
             "pEs": "Adios", 
             "pFr": "Adieu"
@@ -55,20 +60,12 @@ C. Se envia una solicitud http://127.0.0.1:5000/fr/Adios
 
 
 **- - ->> IMPORTANTE <<- - -**
+
 La solicitud HTTP tiene el siguiente formato
     http://127.0.0.1:5000/Language/Word
 
-Donde Language es el idioma al que se desea 
-traducir la palabra el cual puede ser:
-    - en
-    - ita
-    - fr
+Donde {Language} es el idioma al que se desea traducir la palabra el cual puede ser: en, ita, fr
 
-Y Word es la palabra a traducir la cual
-puede ser:
-    - Hola
-    - Adios
-    - Perro
-    - Gato
+Y {Word} es la palabra a traducir la cual puede ser: Hola, Adios, Perro, Gato
 
 **NOTA: Se deben respetar las mayusculas y minusculas SIEMPRE.**
