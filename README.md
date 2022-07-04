@@ -13,7 +13,7 @@ Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - 
 4. En XAMPP pulsar el boton [Admin] se abrira el navegador con phpMyAdmin
 5. Crear una nueva base de datos llamada "bdtranslatorapi"
 6. Ejecutar el script WebServer.py y detenerlo [Ctrl + C]
-7. Volver a phpMyAdmin, abrir la base de datos y presionar el boton [SQL] y pegar los siguientes comandos:
+7. Volver a phpMyAdmin, abrir la base de datos y presionar el boton superior [SQL] y pegar los siguientes comandos:
   ------------------------------------------------------
     INSERT INTO en (pEs, pEn) VALUES ('Hola', 'Hello'), ('Adios', 'GoodBye'), ('Perro', 'Dog'), ('Gato', 'Cat');
     INSERT INTO ita (pEs, pIta) VALUES ('Hola', 'Ciao'), ('Adios', 'Arrivederci'), ('Perro', 'Cane'), ('Gato', 'Gatto');
