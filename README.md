@@ -2,8 +2,7 @@ Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - 
 ------------------------------------------------------
 *Para este proyecto se utilizo Python 3 y Flask para la parte programada,* 
 *XAMPP para la base de datos de MySQL y Docker para crear la imagen*
-______________________________________________________________________________
-
+___
 **- - ->> PARA CORRER LA APLICACION DEBE SEGUIR LOS SIGUIENTES PASOS <<- - -**
 
 1. Descargar la imagen de docker --> https://hub.docker.com/r/jrojas89/projectso-una
@@ -27,7 +26,7 @@ ______________________________________________________________________________
     * (Para este paso tambien se puede utilizar Postman o copiar la solicitud HTTP directamente en el browser)
 11. Aparecera un archivo llamado Archivo_log.txt con los datos de los clientes que enviaron las solicitudes HTTP
 
-___________________________________
+___
 
 **- - ->> EJEMPLOS DE USO <<- - -**
 
@@ -35,7 +34,7 @@ ___________________________________
 * Se envia una solicitud http://127.0.0.1:5000/ita/Gato --> Se recibe de respuesta: {"pEs": "Gato", "pIta": "Gatto"}
 * Se envia una solicitud http://127.0.0.1:5000/fr/Adios --> Se recibe de respuesta: {"pEs": "Adios", "pFr": "Adieu"}
 
-_______________________________
+___
 
 **- - ->> IMPORTANTE <<- - -**
 
