@@ -8,7 +8,7 @@ ______________________________________________________________________________
 
 1. Descargar la imagen de docker --> https://hub.docker.com/r/jrojas89/projectso-una
 2. Correr la imagen en el contenedor:
---
+---
     docker run --rm -p 80:5000 projectso-una:projectso-una
 
 3. Abrir XAMPP iniciar los modulos Apache y MySQL
