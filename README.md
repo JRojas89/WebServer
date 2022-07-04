@@ -1,11 +1,5 @@
 Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
   ------------------------------------------------------
-    Este proyecto consiste en un Web Server sencillo 
-    que recibe solicitudes por parte de un cliente
-    mediante llamadas REST Standard, utilizando URIs
-    para la traduccion de palabras especificas del 
-    espanol al ingles, italiano o frances
-  ------------------------------------------------------
     Para este proyecto se utilizo Python 3 y Flask para 
     la parte programada, XAMPP para la base de datos de 
     MySQL y Docker para crear la imagen
