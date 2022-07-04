@@ -14,9 +14,11 @@ Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - 
 5. Crear una nueva base de datos llamada "bdtranslatorapi"
 6. Ejecutar el script WebServer.py y detenerlo [Ctrl + C]
 7. Volver a phpMyAdmin, abrir la base de datos y presionar el boton [SQL] y pegar los siguientes comandos:
-    * INSERT INTO en (pEs, pEn) VALUES ('Hola', 'Hello'), ('Adios', 'GoodBye'), ('Perro', 'Dog'), ('Gato', 'Cat');
-    * INSERT INTO ita (pEs, pIta) VALUES ('Hola', 'Ciao'), ('Adios', 'Arrivederci'), ('Perro', 'Cane'), ('Gato', 'Gatto');
-    * INSERT INTO fr (pEs, pFr) VALUES ('Hola', 'Salut'), ('Adios', 'Adieu'), ('Perro', 'Chien'), ('Gato', 'Chat');
+  ------------------------------------------------------
+   INSERT INTO en (pEs, pEn) VALUES ('Hola', 'Hello'), ('Adios', 'GoodBye'), ('Perro', 'Dog'), ('Gato', 'Cat');
+   INSERT INTO ita (pEs, pIta) VALUES ('Hola', 'Ciao'), ('Adios', 'Arrivederci'), ('Perro', 'Cane'), ('Gato', 'Gatto');
+   INSERT INTO fr (pEs, pFr) VALUES ('Hola', 'Salut'), ('Adios', 'Adieu'), ('Perro', 'Chien'), ('Gato', 'Chat');
+  ------------------------------------------------------
 8. Presionar el boton inferior [Continuar]
 9. Ejecutar el script WebServer.py
 10. Ejecutar el script Cliente.py y detenerlo [Ctrl + C]
