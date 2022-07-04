@@ -1,4 +1,5 @@
 Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
+------------------------------------------------------
 *Para este proyecto se utilizo Python 3 y Flask para la parte programada, XAMPP para la base de datos de MySQL y Docker para crear la imagen*
 
 **- - ->> PARA CORRER LA APLICACION DEBE SEGUIR LOS SIGUIENTES PASOS <<- - -**
