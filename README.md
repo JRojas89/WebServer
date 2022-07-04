@@ -1,15 +1,13 @@
 Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
-------------------------------------------------------
-    Para este proyecto se utilizo Python 3 y Flask para 
-    la parte programada, XAMPP para la base de datos de 
-    MySQL y Docker para crear la imagen
+*Para este proyecto se utilizo Python 3 y Flask para la parte programada, XAMPP para la base de datos de MySQL y Docker para crear la imagen*
 
 **- - ->> PARA CORRER LA APLICACION DEBE SEGUIR LOS SIGUIENTES PASOS <<- - -**
 
 1. Descargar la imagen de docker --> https://hub.docker.com/r/jrojas89/projectso-una
-2. Correr la imagen en el contenedor
+2. Correr la imagen en el contenedor:
 ------------------------------------------------------
     docker run --rm -p 80:5000 projectso-una:projectso-una
+
 3. Abrir XAMPP iniciar los modulos Apache y MySQL
 4. En XAMPP pulsar el boton [Admin] se abrira el navegador con phpMyAdmin
 5. Crear una nueva base de datos llamada "bdtranslatorapi"
@@ -19,6 +17,7 @@ Universidad Nacional de Costa Rica - II Proyecto - EIF212 Sistemas Operativos - 
     INSERT INTO en (pEs, pEn) VALUES ('Hola', 'Hello'), ('Adios', 'GoodBye'), ('Perro', 'Dog'), ('Gato', 'Cat');
     INSERT INTO ita (pEs, pIta) VALUES ('Hola', 'Ciao'), ('Adios', 'Arrivederci'), ('Perro', 'Cane'), ('Gato', 'Gatto');
     INSERT INTO fr (pEs, pFr) VALUES ('Hola', 'Salut'), ('Adios', 'Adieu'), ('Perro', 'Chien'), ('Gato', 'Chat');
+
 8. Presionar el boton inferior [Continuar]
 9. Ejecutar el script WebServer.py
 10. Ejecutar el script Cliente.py y detenerlo [Ctrl + C]
