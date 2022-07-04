@@ -33,39 +33,13 @@ II Proyecto - EIF212 Sistemas Operativos - I Ciclo 2022
 
 **- - ->> EJEMPLOS DE USO <<- - -**
 
-1. Se envia una solicitud http://127.0.0.1:5000/en/Hola
-
-Se recibe de respuesta:
-        {
-            "pEn": "Hello", 
-            "pEs": "Hola"
-        }
-
-
-2. Se envia una solicitud http://127.0.0.1:5000/ita/Gato
-  
-Se recibe de respuesta:
-        {
-            "pEs": "Gato", 
-            "pIta": "Gatto"
-        }
-
-3. Se envia una solicitud http://127.0.0.1:5000/fr/Adios
-   
-Se recibe de respuesta:
-        {
-            "pEs": "Adios", 
-            "pFr": "Adieu"
-        }
+* Se envia una solicitud http://127.0.0.1:5000/en/Hola --> Se recibe de respuesta: {"pEn": "Hello", "pEs": "Hola"}
+* Se envia una solicitud http://127.0.0.1:5000/ita/Gato --> Se recibe de respuesta: {"pEs": "Gato", "pIta": "Gatto"}
+* Se envia una solicitud http://127.0.0.1:5000/fr/Adios --> Se recibe de respuesta: {"pEs": "Adios", "pFr": "Adieu"}
 
 
 **- - ->> IMPORTANTE <<- - -**
 
-La solicitud HTTP tiene el siguiente formato
-    http://127.0.0.1:5000/Language/Word
-
-Donde {Language} es el idioma al que se desea traducir la palabra el cual puede ser: en, ita, fr
-
-Y {Word} es la palabra a traducir la cual puede ser: Hola, Adios, Perro, Gato
+La solicitud HTTP tiene el siguiente formato http://127.0.0.1:5000/Language/Word --> Donde {Language} es el idioma al que se desea traducir la palabra el cual puede ser: en, ita, fr. Y {Word} es la palabra a traducir la cual puede ser: Hola, Adios, Perro, Gato
 
 **NOTA: Se deben respetar las mayusculas y minusculas SIEMPRE.**
